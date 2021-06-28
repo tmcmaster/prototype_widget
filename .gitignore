@@ -32,6 +32,9 @@ doc/api/
 .pub/
 /build/
 
+.DS_Store
+generated_plugin_registrant.dart
+
 android
 web
 ios

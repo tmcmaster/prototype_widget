@@ -1,7 +1,8 @@
-name: flutter_package_template
+name: prototype_widget
 description: A new Flutter package project.
 version: 0.0.1
-homepage: https://github.com/tmcmaster/flutter_package_template/blob/main/README.md
+publish_to: 'none'
+homepage: https://github.com/tmcmaster/prototype_widget/blob/main/README.md
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
@@ -9,6 +10,12 @@ environment:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/screens/
+    - assets/screens/home/
+    - assets/screens/home/panels/
 
 dependencies:
   flutter:
@@ -20,3 +27,8 @@ dev_dependencies:
   pedantic:
   lint:
   test:
+
+  flutter_workbench:
+    path: ../flutter_workbench
+#    git:
+#      url: https://github.com/tmcmaster/flutter_workbench.git
