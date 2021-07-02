@@ -24,7 +24,13 @@ void main() {
           ],
           footer: 'assets/screens/home/footer.png',
         ),
-        PrototypePage(image: 'assets/screens/favourites_screen.png'),
+        PrototypePageScaffold(
+          banner: 'assets/screens/favourites/favourites_heading.png',
+          panels: [
+            PrototypePanel(image: 'assets/screens/favourites/favourites_body.png'),
+          ],
+          footer: 'assets/screens/favourites/favourites_navigation.png',
+        ),
         PrototypePage(image: 'assets/screens/trending_screen.png'),
         PrototypePage(image: 'assets/screens/rated_screen.png'),
       ],

@@ -16,7 +16,9 @@ class PrototypePanelSlider extends StatelessWidget {
       child: ListView(
         shrinkWrap: true,
         scrollDirection: Axis.horizontal,
-        children: [Image.asset(image, fit: BoxFit.fitHeight)],
+        children: [
+          Image.asset(image, fit: BoxFit.fitHeight),
+        ],
       ),
     );
   }

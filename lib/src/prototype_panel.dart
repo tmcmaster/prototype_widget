@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:prototype_widget/src/black_and_white.dart';
 
 class PrototypePanel extends StatelessWidget {
   final String image;
@@ -6,9 +7,11 @@ class PrototypePanel extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Image.asset(
-      image,
-      fit: BoxFit.fitWidth,
+    return BlackAndWhite(
+      image: Image.asset(
+        image,
+        fit: BoxFit.fitWidth,
+      ),
     );
   }
 }

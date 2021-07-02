@@ -1,6 +1,6 @@
 name: prototype_widget
 description: A new Flutter package project.
-version: 0.0.1
+version: 0.0.2
 publish_to: 'none'
 homepage: https://github.com/tmcmaster/prototype_widget/blob/main/README.md
 
@@ -15,6 +15,7 @@ flutter:
     - assets/icons/
     - assets/screens/
     - assets/screens/home/
+    - assets/screens/favourites/
     - assets/screens/home/panels/
 
 dependencies:
@@ -29,6 +30,9 @@ dev_dependencies:
   test:
 
   flutter_workbench:
-    path: ../flutter_workbench
-#    git:
-#      url: https://github.com/tmcmaster/flutter_workbench.git
+    git:
+      url: https://github.com/tmcmaster/flutter_workbench.git
+
+#dependency_overrides:
+#  flutter_workbench:
+#    path: ../../
